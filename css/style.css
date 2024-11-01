@@ -1,0 +1,17 @@
+.slider{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: fixed;
+    top: 50%;
+    left:0%;
+    transform: translate(0%,50%);
+}
+.slider img{
+    /* width: 100%; */
+    display: none;
+    margin: auto;
+}
+.slider img.active{
+    display: block;
+}
